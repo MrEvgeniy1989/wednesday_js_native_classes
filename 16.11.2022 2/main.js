@@ -97,3 +97,9 @@ const getFilteredArray = (arr, func) => {
     }
     return result
 }
+
+const arr = [1,2,3]
+
+const addElToEndOfArray = (arr, el) => ((arr[arr.length] = el).length)
+
+console.log(addElToEndOfArray(arr, 4))
