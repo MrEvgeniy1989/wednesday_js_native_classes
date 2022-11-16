@@ -91,7 +91,7 @@ console.log(students.selfMadeMap(getName))
 const getFilteredArray = (arr, func) => {
     const result = []
     for (let i = 0; i < arr.length; i++) {
-            if (func(arr[i] === true)) {
+            if (func(arr[i]) === true) {
                 result.push(arr[i])
             }
     }
